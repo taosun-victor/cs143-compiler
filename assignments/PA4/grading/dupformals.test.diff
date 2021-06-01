@@ -1,0 +1,6 @@
+1,2c1,2
+< dupformals.test:3: Formal parameter x is multiply defined.
+< dupformals.test:3: Formal parameter x is multiply defined.
+---
+> dupformals.test:4: Error! formal name duplicated. 
+> dupformals.test:4: Error! formal name duplicated. 

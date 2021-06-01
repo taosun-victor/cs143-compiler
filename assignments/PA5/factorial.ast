@@ -1,0 +1,204 @@
+#20
+_program
+  #20
+  _class
+    Main
+    IO
+    "./factorial.cl"
+    (
+    #2
+    _attr
+      res
+      Int
+      #2
+      _int
+        1314
+      : Int
+    #15
+    _method
+      main
+      Object
+      #15
+      _block
+        #4
+        _dispatch
+          #4
+          _object
+            self
+          : SELF_TYPE
+          out_string
+          (
+          #4
+          _string
+            "Enter an integer greater-than or equal-to 0: "
+          : String
+          )
+        : SELF_TYPE
+        #14
+        _let
+          input
+          Int
+          #6
+          _dispatch
+            #6
+            _object
+              self
+            : SELF_TYPE
+            in_int
+            (
+            )
+          : Int
+          #14
+          _cond
+            #7
+            _lt
+              #7
+              _object
+                input
+              : Int
+              #7
+              _int
+                0
+              : Int
+            : Bool
+            #8
+            _dispatch
+              #8
+              _object
+                self
+              : SELF_TYPE
+              out_string
+              (
+              #8
+              _string
+                "ERROR: Number must be greater-than or equal-to 0\n"
+              : String
+              )
+            : SELF_TYPE
+            #13
+            _block
+              #10
+              _assign
+                res
+                #10
+                _dispatch
+                  #10
+                  _object
+                    self
+                  : SELF_TYPE
+                  factorial
+                  (
+                  #10
+                  _object
+                    input
+                  : Int
+                  )
+                : Int
+              : Int
+              #11
+              _dispatch
+                #11
+                _dispatch
+                  #11
+                  _object
+                    self
+                  : SELF_TYPE
+                  out_string
+                  (
+                  #11
+                  _string
+                    "The factorial of "
+                  : String
+                  )
+                : SELF_TYPE
+                out_int
+                (
+                #11
+                _object
+                  input
+                : Int
+                )
+              : SELF_TYPE
+              #12
+              _dispatch
+                #12
+                _dispatch
+                  #12
+                  _object
+                    self
+                  : SELF_TYPE
+                  out_string
+                  (
+                  #12
+                  _string
+                    " is "
+                  : String
+                  )
+                : SELF_TYPE
+                out_int
+                (
+                #12
+                _object
+                  res
+                : Int
+                )
+              : SELF_TYPE
+            : SELF_TYPE
+          : SELF_TYPE
+        : SELF_TYPE
+      : SELF_TYPE
+    #19
+    _method
+      factorial
+      #17
+      _formal
+        num
+        Int
+      Int
+      #18
+      _cond
+        #18
+        _eq
+          #18
+          _object
+            num
+          : Int
+          #18
+          _int
+            0
+          : Int
+        : Bool
+        #18
+        _int
+          1
+        : Int
+        #18
+        _mul
+          #18
+          _object
+            num
+          : Int
+          #18
+          _dispatch
+            #18
+            _object
+              self
+            : SELF_TYPE
+            factorial
+            (
+            #18
+            _sub
+              #18
+              _object
+                num
+              : Int
+              #18
+              _int
+                1
+              : Int
+            : Int
+            )
+          : Int
+        : Int
+      : Int
+    )

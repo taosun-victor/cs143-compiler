@@ -1,0 +1,2 @@
+badmethodcallsitself.test:5: Error! Actual type Object doesn't suit formal type Int
+Compilation halted due to static semantic errors.

@@ -1,0 +1,4 @@
+1c1
+< outofscope.test:3: Undeclared identifier x.
+---
+> outofscope.test:6: Cannot find object x

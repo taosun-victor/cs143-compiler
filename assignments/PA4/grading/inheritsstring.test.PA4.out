@@ -1,0 +1,2 @@
+inheritsstring.test:9: Error! Class B cannot inherit from String
+Compilation halted due to static semantic errors.

@@ -1,0 +1,6 @@
+1,2c1,2
+< trickyatdispatch2.test:10: Expression type A does not conform to declared static dispatch type B.
+< trickyatdispatch2.test:10: Inferred return type Object of method binky does not conform to declared return type Int.
+---
+> trickyatdispatch2.test:11: Error! Static dispatch class is not an ancestor.
+> trickyatdispatch2.test:11: Error! return type is not ancestor of expr type. 

@@ -1,0 +1,2 @@
+badarith.test:5: Error! '+' meets non-Int value.
+Compilation halted due to static semantic errors.

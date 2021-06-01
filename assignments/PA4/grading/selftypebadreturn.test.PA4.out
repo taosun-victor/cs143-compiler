@@ -1,0 +1,2 @@
+selftypebadreturn.test:6: Error! return type is not ancestor of expr type. 
+Compilation halted due to static semantic errors.

@@ -1,0 +1,4 @@
+1c1
+< selftypebadreturn.test:4: Inferred return type A of method foo does not conform to declared return type SELF_TYPE.
+---
+> selftypebadreturn.test:6: Error! return type is not ancestor of expr type. 

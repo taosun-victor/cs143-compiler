@@ -1,0 +1,4 @@
+1c1
+< badstaticdispatch.test:11: Expression type SELF_TYPE does not conform to declared static dispatch type C.
+---
+> badstaticdispatch.test:12: Error! Static dispatch class is not an ancestor.

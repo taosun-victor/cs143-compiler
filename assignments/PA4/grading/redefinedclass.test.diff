@@ -1,0 +1,4 @@
+1c1
+< redefinedclass.test:9: Class A was previously defined.
+---
+> redefinedclass.test:9: Error! Class A has been defined!

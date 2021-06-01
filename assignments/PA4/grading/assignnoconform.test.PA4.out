@@ -1,0 +1,2 @@
+assignnoconform.test:5: Error! lvalue is not an ancestor of rvalue. 
+Compilation halted due to static semantic errors.

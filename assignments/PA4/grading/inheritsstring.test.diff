@@ -1,0 +1,4 @@
+1c1
+< inheritsstring.test:9: Class B cannot inherit class String.
+---
+> inheritsstring.test:9: Error! Class B cannot inherit from String

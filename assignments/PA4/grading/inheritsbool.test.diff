@@ -1,0 +1,4 @@
+1c1
+< inheritsbool.test:9: Class B cannot inherit class Bool.
+---
+> inheritsbool.test:9: Error! Class B cannot inherit from Bool

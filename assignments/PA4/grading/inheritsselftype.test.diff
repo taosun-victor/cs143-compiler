@@ -1,0 +1,4 @@
+1c1
+< inheritsselftype.test:1: Class Main cannot inherit class SELF_TYPE.
+---
+> inheritsselftype.test:1: Error! Cannot find class SELF_TYPE

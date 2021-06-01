@@ -1,0 +1,4 @@
+2c2
+< "ifnofi.test", line 3: syntax error at or near '}'
+---
+> "ifnofi.test", line 3: syntax error at or near ')'

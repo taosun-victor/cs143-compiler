@@ -1,0 +1,73 @@
+#11
+_program
+  #11
+  _class
+    Main
+    IO
+    "./assign.cl"
+    (
+    #3
+    _attr
+      x
+      Int
+      #3
+      _int
+        5
+      : Int
+    #4
+    _attr
+      y
+      Int
+      #4
+      _int
+        4
+      : Int
+    #10
+    _method
+      main
+      Object
+      #10
+      _block
+        #6
+        _assign
+          y
+          #6
+          _plus
+            #6
+            _object
+              x
+            : Int
+            #6
+            _int
+              4
+            : Int
+          : Int
+        : Int
+        #7
+        _assign
+          x
+          #7
+          _int
+            7656
+          : Int
+        : Int
+        #8
+        _dispatch
+          #8
+          _object
+            self
+          : SELF_TYPE
+          out_int
+          (
+          #8
+          _object
+            x
+          : Int
+          )
+        : SELF_TYPE
+        #9
+        _object
+          self
+        : SELF_TYPE
+      : SELF_TYPE
+    )

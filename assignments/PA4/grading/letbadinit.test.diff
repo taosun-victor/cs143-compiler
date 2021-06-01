@@ -1,0 +1,4 @@
+1c1
+< letbadinit.test:4: Inferred type A of initialization of x does not conform to identifier's declared type B.
+---
+> letbadinit.test:5: Error! init value is not child.

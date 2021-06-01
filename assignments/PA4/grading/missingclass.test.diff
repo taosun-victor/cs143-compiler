@@ -1,0 +1,4 @@
+1c1
+< missingclass.test:5: Class A inherits from an undefined class D.
+---
+> missingclass.test:5: Error! Cannot find class D

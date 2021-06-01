@@ -1,0 +1,2 @@
+letself.test:4: Error! self in let binding.
+Compilation halted due to static semantic errors.

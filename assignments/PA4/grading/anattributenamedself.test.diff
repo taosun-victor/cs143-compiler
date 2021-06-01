@@ -1,0 +1,4 @@
+1c1
+< anattributenamedself.test:4: 'self' cannot be the name of an attribute.
+---
+> anattributenamedself.test:6: Error! 'self' cannot be the name of an attribute in class A

@@ -1,0 +1,2 @@
+badstaticdispatch.test:12: Error! Static dispatch class is not an ancestor.
+Compilation halted due to static semantic errors.

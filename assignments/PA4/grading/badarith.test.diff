@@ -1,0 +1,4 @@
+1c1
+< badarith.test:4: non-Int arguments: Int + String
+---
+> badarith.test:5: Error! '+' meets non-Int value.

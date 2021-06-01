@@ -1,0 +1,3 @@
+returntypenoexist.test:3: Error! return type PinkElephant doesn't exist.
+returntypenoexist.test:3: Error! type PinkElephant doesn't exist.
+Compilation halted due to static semantic errors.

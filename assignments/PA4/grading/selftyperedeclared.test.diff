@@ -1,0 +1,4 @@
+1c1
+< selftyperedeclared.test:6: Redefinition of basic class SELF_TYPE.
+---
+> selftyperedeclared.test:6: Error! SELF_TYPE redeclared!

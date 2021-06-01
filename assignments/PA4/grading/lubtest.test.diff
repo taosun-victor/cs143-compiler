@@ -1,0 +1,4 @@
+1c1
+< lubtest.test:18: Inferred return type Z of method h does not conform to declared return type B.
+---
+> lubtest.test:19: Error! return type is not ancestor of expr type. 

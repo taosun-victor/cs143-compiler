@@ -1,0 +1,4 @@
+1c1
+< caseidenticalbranch.test:4: Duplicate branch Int in case statement.
+---
+> caseidenticalbranch.test:5: Error! Two branches have same type.

@@ -1,0 +1,5 @@
+1c1,2
+< self-assignment.test:5: Cannot assign to 'self'.
+---
+> self-assignment.test:6: Error! Cannot find lvalue self
+> self-assignment.test:6: Error! return type is not ancestor of expr type. 

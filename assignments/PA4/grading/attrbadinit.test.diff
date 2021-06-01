@@ -1,0 +1,4 @@
+1c1
+< attrbadinit.test:8: Undeclared identifier moo.
+---
+> attrbadinit.test:9: Cannot find object moo

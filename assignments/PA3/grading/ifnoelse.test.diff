@@ -1,0 +1,4 @@
+2c2
+< "ifnoelse.test", line 3: syntax error at or near FI
+---
+> "ifnoelse.test", line 3: syntax error at or near ')'

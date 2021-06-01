@@ -1,0 +1,4 @@
+1c1
+< baddispatch.test:12: Dispatch to undefined method moo.
+---
+> baddispatch.test:14: Error! Cannot find method 'moo'

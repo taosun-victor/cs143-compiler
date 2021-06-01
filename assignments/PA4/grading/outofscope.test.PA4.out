@@ -1,0 +1,2 @@
+outofscope.test:6: Cannot find object x
+Compilation halted due to static semantic errors.

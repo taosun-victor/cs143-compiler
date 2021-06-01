@@ -1,0 +1,2 @@
+attroverride.test:9: Error! attribute 'moo' already exists!
+Compilation halted due to static semantic errors.

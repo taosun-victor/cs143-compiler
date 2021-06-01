@@ -1,0 +1,4 @@
+1c1
+< badwhilebody.test:5: Dispatch to undefined method length.
+---
+> badwhilebody.test:6: Error! Cannot find method 'length'

@@ -1,0 +1,6 @@
+1,2c1,2
+< returntypenoexist.test:2: Undefined return type PinkElephant in method main.
+< returntypenoexist.test:2: 'new' used with undefined class PinkElephant.
+---
+> returntypenoexist.test:3: Error! return type PinkElephant doesn't exist.
+> returntypenoexist.test:3: Error! type PinkElephant doesn't exist.

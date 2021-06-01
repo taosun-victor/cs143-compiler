@@ -1,0 +1,4 @@
+1c1
+< badequalitytest.test:5: Illegal comparison with a basic type.
+---
+> badequalitytest.test:6: Error! '=' meets different types.

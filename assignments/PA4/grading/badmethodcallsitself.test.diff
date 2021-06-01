@@ -1,0 +1,4 @@
+1c1
+< badmethodcallsitself.test:4: In call of method f, type Object of parameter a does not conform to declared type Int.
+---
+> badmethodcallsitself.test:5: Error! Actual type Object doesn't suit formal type Int

@@ -1,0 +1,4 @@
+1c1
+< selftypeparameterposition.test:4: Formal parameter x cannot have type SELF_TYPE.
+---
+> selftypeparameterposition.test:6: Error! Cannot find class SELF_TYPE

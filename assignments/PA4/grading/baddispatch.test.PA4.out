@@ -1,0 +1,2 @@
+baddispatch.test:14: Error! Cannot find method 'moo'
+Compilation halted due to static semantic errors.

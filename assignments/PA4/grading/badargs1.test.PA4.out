@@ -1,0 +1,2 @@
+badargs1.test:7: Error! Actual type SELF_TYPE doesn't suit formal type B
+Compilation halted due to static semantic errors.

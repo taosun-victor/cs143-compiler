@@ -1,0 +1,4 @@
+1c1
+< attroverride.test:8: Attribute moo is an attribute of an inherited class.
+---
+> attroverride.test:9: Error! attribute 'moo' already exists!

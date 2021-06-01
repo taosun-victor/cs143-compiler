@@ -1,0 +1,4 @@
+1c1
+< assignnoconform.test:4: Type A of assigned expression does not conform to declared type B of identifier b.
+---
+> assignnoconform.test:5: Error! lvalue is not an ancestor of rvalue. 

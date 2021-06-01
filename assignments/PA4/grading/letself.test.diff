@@ -1,0 +1,4 @@
+1c1
+< letself.test:3: 'self' cannot be bound in a 'let' expression.
+---
+> letself.test:4: Error! self in let binding.

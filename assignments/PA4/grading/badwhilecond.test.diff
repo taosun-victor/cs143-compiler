@@ -1,0 +1,4 @@
+1c1
+< badwhilecond.test:5: Loop condition does not have type Bool.
+---
+> badwhilecond.test:6: Error! Type of pred is not Bool.

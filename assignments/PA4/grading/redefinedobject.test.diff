@@ -1,0 +1,4 @@
+1c1
+< redefinedobject.test:6: Redefinition of basic class Object.
+---
+> redefinedobject.test:6: Error! Class Object has been defined!
